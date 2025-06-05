@@ -1,0 +1,38 @@
+
+
+
+
+
+/* ============================================= */
+/*              Buttons                          */
+/* ============================================= */
+
+.btn {
+  margin-top: 15px;
+  width: 100%;
+  color: var( --white);
+  border: none;
+  padding: 10px 0;
+  text-transform: uppercase;
+  border-radius: 5px;
+}
+
+.default {
+  background-color: var( --link-blue);
+}
+
+.error {
+  background-color: var(--theme-red);
+}
+
+.info {
+  background-color: var(--theme-purple);
+}
+
+.success {
+  background-color: var(--theme-green);
+}
+
+.warning {
+  background-color: var(--theme-orange);
+}
