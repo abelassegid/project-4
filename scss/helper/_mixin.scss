@@ -1,10 +1,9 @@
 /* ============================================= */
 /*              Media Queries                    */
 /* ============================================= */
-@media (min-width: 768px) {
-
+@media (min-width:var(--mid-width)) {
 .container {
-  max-width: 1400px;
+  max-width: var(--max-width);
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -64,7 +63,7 @@
 }
 
 .col-9 {
-  flex-basis: 75.00%
+  flex-basis: 75.00%;
 }
 
 .col-10 {
